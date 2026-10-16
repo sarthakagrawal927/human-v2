@@ -1,0 +1,549 @@
+{
+  "maximum_mean_rounding_error": 1.887201506178826e-11,
+  "engine": "Pulse 4.4.0 5e29e5b",
+  "cases": 22,
+  "exact_replays": [
+    "baseline",
+    "breathing-sudden"
+  ],
+  "note": "Software qualification only; not independent physiological calibration. Hypocapnia event classification has a source defect and is excluded from trustworthy diagnosis.",
+  "results": {
+    "breathing-sudden": {
+      "wall_seconds": 11.438321958004963,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 71.77149565626391,
+        "RespirationRate": 17.781967153158295,
+        "OxygenSaturation": 0.9772953753633518,
+        "BloodPH": 7.421845483556241,
+        "ArterialCarbonDioxidePressure": 36.50876333179187,
+        "ArterialOxygenPressure": 92.89477367624951,
+        "MeanArterialPressure": 95.26990115285494,
+        "CardiacOutput": 5.766662159435408,
+        "CerebralBloodFlow": 680.9777179719594,
+        "TotalPulmonaryVentilation": 7.143705769250052,
+        "TidalVolume": 401.73136342720665,
+        "CoreTemperature": 37.04475216191399,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": [
+        {
+          "event": "RespiratoryAlkalosis",
+          "active": true,
+          "duration_s": 159.5200000000078
+        }
+      ]
+    },
+    "altitude-baseline": {
+      "wall_seconds": 11.870456542004831,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 115.98115147363565,
+        "RespirationRate": 10.28160514212116,
+        "OxygenSaturation": 0.9206870862553903,
+        "BloodPH": 7.428114784262074,
+        "ArterialCarbonDioxidePressure": 35.93426716822242,
+        "ArterialOxygenPressure": 56.83982482468186,
+        "MeanArterialPressure": 95.82669528075162,
+        "CardiacOutput": 6.314178926555446,
+        "CerebralBloodFlow": 749.7499609376542,
+        "TotalPulmonaryVentilation": 4.606226915658313,
+        "TidalVolume": 447.99234071541014,
+        "CoreTemperature": 37.04583379732322,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": [
+        {
+          "event": "Tachycardia",
+          "active": true,
+          "duration_s": 118.93999999999347
+        },
+        {
+          "event": "Hypoxia",
+          "active": true,
+          "duration_s": 158.44000000000725
+        },
+        {
+          "event": "RespiratoryAlkalosis",
+          "active": true,
+          "duration_s": 173.8000000000151
+        }
+      ]
+    },
+    "exercise-baseline": {
+      "wall_seconds": 12.19912583399855,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 177.19999937902185,
+        "RespirationRate": 20.134049217002268,
+        "OxygenSaturation": 0.9059770196937608,
+        "BloodPH": 7.39611190713684,
+        "ArterialCarbonDioxidePressure": 38.96478952480856,
+        "ArterialOxygenPressure": 55.37309839657378,
+        "MeanArterialPressure": 91.16152789021733,
+        "CardiacOutput": 11.767222984772783,
+        "CerebralBloodFlow": 1379.8996664230579,
+        "TotalPulmonaryVentilation": 29.91574363203793,
+        "TidalVolume": 1485.8284114271048,
+        "CoreTemperature": 37.26969348514169,
+        "TotalMetabolicRate": 443.8919152936738
+      },
+      "events": [
+        {
+          "event": "Tachycardia",
+          "active": true,
+          "duration_s": 157.04000000000653
+        },
+        {
+          "event": "Tachypnea",
+          "active": true,
+          "duration_s": 122.93999999999268
+        },
+        {
+          "event": "Fatigue",
+          "active": true,
+          "duration_s": 179.98000000001826
+        },
+        {
+          "event": "Hypoxia",
+          "active": true,
+          "duration_s": 158.26000000000715
+        },
+        {
+          "event": "Hypoglycemia",
+          "active": true,
+          "duration_s": 160.78000000000844
+        }
+      ]
+    },
+    "exercise-volume-20": {
+      "wall_seconds": 13.830896749990643,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 177.19999930990886,
+        "RespirationRate": 18.51851851851855,
+        "OxygenSaturation": 0.9211550611368804,
+        "BloodPH": 7.3821560093560015,
+        "ArterialCarbonDioxidePressure": 40.365199501568924,
+        "ArterialOxygenPressure": 60.294882751949984,
+        "MeanArterialPressure": 90.90623480062462,
+        "CardiacOutput": 11.724708637158857,
+        "CerebralBloodFlow": 1374.650615742628,
+        "TotalPulmonaryVentilation": 28.32353782446276,
+        "TidalVolume": 1529.4710425209867,
+        "CoreTemperature": 37.27700595396869,
+        "TotalMetabolicRate": 443.8919152936738
+      },
+      "events": [
+        {
+          "event": "Tachycardia",
+          "active": true,
+          "duration_s": 157.08000000000655
+        },
+        {
+          "event": "Fatigue",
+          "active": true,
+          "duration_s": 179.98000000001826
+        },
+        {
+          "event": "Hypoxia",
+          "active": true,
+          "duration_s": 155.90000000000595
+        },
+        {
+          "event": "Hypoglycemia",
+          "active": true,
+          "duration_s": 160.86000000000848
+        }
+      ]
+    },
+    "baseline-repeat": {
+      "wall_seconds": 10.130972084007226,
+      "post_actions_engine_time_s": 0,
+      "mean": null,
+      "events": []
+    },
+    "baseline-dense": {
+      "wall_seconds": 11.921807832986815,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 71.79570559754191,
+        "RespirationRate": 11.999999999999964,
+        "OxygenSaturation": 0.9755516024287688,
+        "ArterialCarbonDioxidePressure": 37.88748221112221,
+        "ArterialOxygenPressure": 91.5962576902739,
+        "MeanArterialPressure": 95.27032460137202,
+        "CardiacOutput": 5.769069273098288,
+        "CerebralBloodFlow": 681.0358172925039,
+        "TotalPulmonaryVentilation": 6.144139637077866,
+        "TidalVolume": 512.0116364231571,
+        "CoreTemperature": 37.04602342210945,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    "volume-20": {
+      "wall_seconds": 12.475442292008665,
+      "post_actions_engine_time_s": 0,
+      "mean": null,
+      "events": []
+    },
+    "volume-20-dense": {
+      "wall_seconds": 13.973988083002041,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 71.80399867872686,
+        "RespirationRate": 12.024995983935705,
+        "OxygenSaturation": 0.9759821822183846,
+        "ArterialCarbonDioxidePressure": 38.48253865992861,
+        "ArterialOxygenPressure": 92.80265667729647,
+        "MeanArterialPressure": 95.16761434242069,
+        "CardiacOutput": 5.762674932369919,
+        "CerebralBloodFlow": 680.4847938470698,
+        "TotalPulmonaryVentilation": 6.074246774472169,
+        "TidalVolume": 505.1348654283138,
+        "CoreTemperature": 37.054411229319015,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    "altitude-surface-20": {
+      "wall_seconds": 13.928591874995618,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 113.36746159428986,
+        "RespirationRate": 10.326151885535639,
+        "OxygenSaturation": 0.926246432038238,
+        "BloodPH": 7.427720150288439,
+        "ArterialCarbonDioxidePressure": 35.97028264648252,
+        "ArterialOxygenPressure": 58.57393228494121,
+        "MeanArterialPressure": 95.8930793218114,
+        "CardiacOutput": 6.254002168393118,
+        "CerebralBloodFlow": 749.0989110995047,
+        "TotalPulmonaryVentilation": 4.603950261082278,
+        "TidalVolume": 445.8471177309185,
+        "CoreTemperature": 37.055300439734125,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": [
+        {
+          "event": "Tachycardia",
+          "active": true,
+          "duration_s": 116.37999999999398
+        },
+        {
+          "event": "Hypoxia",
+          "active": true,
+          "duration_s": 148.200000000002
+        },
+        {
+          "event": "RespiratoryAlkalosis",
+          "active": true,
+          "duration_s": 174.1600000000153
+        }
+      ]
+    },
+    "breathing-sudden-repeat": {
+      "wall_seconds": 11.171992417002912,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 71.77149565626391,
+        "RespirationRate": 17.781967153158295,
+        "OxygenSaturation": 0.9772953753633518,
+        "BloodPH": 7.421845483556241,
+        "ArterialCarbonDioxidePressure": 36.50876333179187,
+        "ArterialOxygenPressure": 92.89477367624951,
+        "MeanArterialPressure": 95.26990115285494,
+        "CardiacOutput": 5.766662159435408,
+        "CerebralBloodFlow": 680.9777179719594,
+        "TotalPulmonaryVentilation": 7.143705769250052,
+        "TidalVolume": 401.73136342720665,
+        "CoreTemperature": 37.04475216191399,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": [
+        {
+          "event": "RespiratoryAlkalosis",
+          "active": true,
+          "duration_s": 159.5200000000078
+        }
+      ]
+    },
+    "exercise-surface-20": {
+      "wall_seconds": 14.661260875000153,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 177.1999993135039,
+        "RespirationRate": 20.134228187919494,
+        "OxygenSaturation": 0.9223258023832438,
+        "BloodPH": 7.388058456363126,
+        "ArterialCarbonDioxidePressure": 39.766665283313216,
+        "ArterialOxygenPressure": 60.315788679339775,
+        "MeanArterialPressure": 91.1678444576043,
+        "CardiacOutput": 11.768567448591437,
+        "CerebralBloodFlow": 1381.5833786230746,
+        "TotalPulmonaryVentilation": 28.86031358823802,
+        "TidalVolume": 1433.3955748824862,
+        "CoreTemperature": 37.27714205080944,
+        "TotalMetabolicRate": 443.8919152936738
+      },
+      "events": [
+        {
+          "event": "Tachycardia",
+          "active": true,
+          "duration_s": 156.66000000000633
+        },
+        {
+          "event": "Tachypnea",
+          "active": true,
+          "duration_s": 126.73999999999192
+        },
+        {
+          "event": "Fatigue",
+          "active": true,
+          "duration_s": 179.98000000001826
+        },
+        {
+          "event": "Hypoxia",
+          "active": true,
+          "duration_s": 156.06000000000603
+        },
+        {
+          "event": "Hypoglycemia",
+          "active": true,
+          "duration_s": 161.06000000000859
+        }
+      ]
+    },
+    "baseline": {
+      "wall_seconds": 16.83460037499026,
+      "post_actions_engine_time_s": 0,
+      "mean": null,
+      "events": []
+    },
+    "exercise-combined": {
+      "wall_seconds": 13.752976417003083,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 177.1999989042659,
+        "RespirationRate": 33.595755305867606,
+        "OxygenSaturation": 0.9292489491338997,
+        "BloodPH": 7.409733950973491,
+        "ArterialCarbonDioxidePressure": 37.64488407164065,
+        "ArterialOxygenPressure": 61.313459140948595,
+        "MeanArterialPressure": 91.03486172661641,
+        "CardiacOutput": 11.753694996187853,
+        "CerebralBloodFlow": 1378.1636406272637,
+        "TotalPulmonaryVentilation": 32.13774040729343,
+        "TidalVolume": 956.5985434579524,
+        "CoreTemperature": 37.273206095331986,
+        "TotalMetabolicRate": 443.8919152936738
+      },
+      "events": [
+        {
+          "event": "Tachycardia",
+          "active": true,
+          "duration_s": 155.84000000000592
+        },
+        {
+          "event": "Tachypnea",
+          "active": true,
+          "duration_s": 172.68000000001453
+        },
+        {
+          "event": "Fatigue",
+          "active": true,
+          "duration_s": 179.98000000001826
+        },
+        {
+          "event": "Hypoxia",
+          "active": true,
+          "duration_s": 150.20000000000303
+        },
+        {
+          "event": "Hypoglycemia",
+          "active": true,
+          "duration_s": 160.86000000000848
+        }
+      ]
+    },
+    "breathing-100-dense": {
+      "wall_seconds": 24.704282584003522,
+      "post_actions_engine_time_s": 599.9999999997443,
+      "mean": {
+        "HeartRate": 70.9719952786215,
+        "RespirationRate": 17.751479289940868,
+        "OxygenSaturation": 0.9771974773187958,
+        "ArterialCarbonDioxidePressure": 36.35171925656966,
+        "ArterialOxygenPressure": 92.75308285016854,
+        "MeanArterialPressure": 95.31393419428618,
+        "CardiacOutput": 5.734294291117652,
+        "CerebralBloodFlow": 686.4514071022882,
+        "TotalPulmonaryVentilation": 7.133841571688782,
+        "TidalVolume": 401.87307520513394,
+        "CoreTemperature": 37.07573983744072,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": [
+        {
+          "event": "RespiratoryAlkalosis",
+          "active": true,
+          "duration_s": 759.5199999995992
+        }
+      ]
+    },
+    "surface-20-dense": {
+      "wall_seconds": 14.53753112499544,
+      "post_actions_engine_time_s": 0.0,
+      "mean": {
+        "HeartRate": 71.80508223670712,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765352925751223,
+        "ArterialCarbonDioxidePressure": 37.96957174606907,
+        "ArterialOxygenPressure": 93.15983982935994,
+        "MeanArterialPressure": 95.27466737318193,
+        "CardiacOutput": 5.770458586468004,
+        "CerebralBloodFlow": 680.8616731049697,
+        "TotalPulmonaryVentilation": 6.145438709421328,
+        "TidalVolume": 510.0714128819718,
+        "CoreTemperature": 37.05555059315151,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    "surface-20": {
+      "wall_seconds": 13.109318458999041,
+      "post_actions_engine_time_s": 0,
+      "mean": null,
+      "events": []
+    },
+    "circulation-integrated-baseline": {
+      "wall_seconds": null,
+      "post_actions_engine_time_s": 0,
+      "mean": {
+        "HeartRate": 71.79570559754191,
+        "RespirationRate": 11.999999999999964,
+        "OxygenSaturation": 0.9755516024287688,
+        "BloodPH": 7.4071933903261815,
+        "ArterialCarbonDioxidePressure": 37.88748221112221,
+        "ArterialOxygenPressure": 91.5962576902739,
+        "MeanArterialPressure": 95.27032460137202,
+        "CardiacOutput": 5.769069273098288,
+        "CerebralBloodFlow": 681.0358172925039,
+        "TotalPulmonaryVentilation": 6.144139637077866,
+        "TidalVolume": 512.0116364231571,
+        "CoreTemperature": 37.04602342210945,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    "circulation-integrated-modified": {
+      "wall_seconds": null,
+      "post_actions_engine_time_s": 0,
+      "mean": {
+        "HeartRate": 68.70752529427695,
+        "RespirationRate": 11.811023622047205,
+        "OxygenSaturation": 0.9793849480673208,
+        "BloodPH": 7.405937366143017,
+        "ArterialCarbonDioxidePressure": 38.00805282484182,
+        "ArterialOxygenPressure": 97.83534341036781,
+        "MeanArterialPressure": 96.08637982146504,
+        "CardiacOutput": 5.579759119898975,
+        "CerebralBloodFlow": 654.794513078793,
+        "TotalPulmonaryVentilation": 5.957943190621051,
+        "TidalVolume": 504.4391901392507,
+        "CoreTemperature": 37.047498743490316,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    "six-controls-integrated-baseline": {
+      "wall_seconds": null,
+      "post_actions_engine_time_s": 0,
+      "mean": {
+        "HeartRate": 177.19999937902185,
+        "RespirationRate": 20.134049217002268,
+        "OxygenSaturation": 0.9059770196937608,
+        "BloodPH": 7.39611190713684,
+        "ArterialCarbonDioxidePressure": 38.96478952480856,
+        "ArterialOxygenPressure": 55.37309839657378,
+        "MeanArterialPressure": 91.16152789021733,
+        "CardiacOutput": 11.767222984772783,
+        "CerebralBloodFlow": 1379.8996664230579,
+        "TotalPulmonaryVentilation": 29.91574363203793,
+        "TidalVolume": 1485.8284114271048,
+        "CoreTemperature": 37.26969348514169,
+        "TotalMetabolicRate": 443.8919152936738
+      },
+      "events": [
+        "Hypoxia"
+      ]
+    },
+    "six-controls-integrated-modified": {
+      "wall_seconds": null,
+      "post_actions_engine_time_s": 0,
+      "mean": {
+        "HeartRate": 177.1999995528184,
+        "RespirationRate": 32.71763019589102,
+        "OxygenSaturation": 0.9232852551955038,
+        "BloodPH": 7.415007933005718,
+        "ArterialCarbonDioxidePressure": 37.145790610701,
+        "ArterialOxygenPressure": 59.07080077673784,
+        "MeanArterialPressure": 106.32841347364145,
+        "CardiacOutput": 11.907341170123892,
+        "CerebralBloodFlow": 1381.3806538227184,
+        "TotalPulmonaryVentilation": 29.174601109235564,
+        "TidalVolume": 891.7016436122943,
+        "CoreTemperature": 37.27514926378902,
+        "TotalMetabolicRate": 443.8919152936738
+      },
+      "events": [
+        "Hypoxia"
+      ]
+    },
+    "combined-integrated-baseline": {
+      "wall_seconds": null,
+      "post_actions_engine_time_s": 0,
+      "mean": {
+        "HeartRate": 177.19999937902185,
+        "RespirationRate": 20.134049217002268,
+        "OxygenSaturation": 0.9059770196937608,
+        "BloodPH": 7.39611190713684,
+        "ArterialCarbonDioxidePressure": 38.96478952480856,
+        "ArterialOxygenPressure": 55.37309839657378,
+        "MeanArterialPressure": 91.16152789021733,
+        "CardiacOutput": 11.767222984772783,
+        "CerebralBloodFlow": 1379.8996664230579,
+        "TotalPulmonaryVentilation": 29.91574363203793,
+        "TidalVolume": 1485.8284114271048,
+        "CoreTemperature": 37.26969348514169,
+        "TotalMetabolicRate": 443.8919152936738
+      },
+      "events": [
+        "Hypoxia"
+      ]
+    },
+    "combined-integrated-modified": {
+      "wall_seconds": null,
+      "post_actions_engine_time_s": 0,
+      "mean": {
+        "HeartRate": 177.19999911743938,
+        "RespirationRate": 33.33333333333328,
+        "OxygenSaturation": 0.9211805236892301,
+        "BloodPH": 7.413029488584966,
+        "ArterialCarbonDioxidePressure": 37.33222795293658,
+        "ArterialOxygenPressure": 58.51505654459499,
+        "MeanArterialPressure": 97.83624044946323,
+        "CardiacOutput": 12.756159327558382,
+        "CerebralBloodFlow": 1497.4822357031455,
+        "TotalPulmonaryVentilation": 31.251893296967953,
+        "TidalVolume": 937.5567989090404,
+        "CoreTemperature": 37.2668624966585,
+        "TotalMetabolicRate": 443.8919152936738
+      },
+      "events": [
+        "Hypoxia"
+      ]
+    }
+  }
+}

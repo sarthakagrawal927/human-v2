@@ -1,0 +1,167 @@
+{
+  "context": {
+    "modelVersion": "energy-balance-1.0.0",
+    "baselineVersion": "baseline-1.0.0",
+    "challengeId": "sustainable-workload-1",
+    "environment": {
+      "id": "temperate-1",
+      "temperatureC": 22,
+      "humidityPercent": 40
+    }
+  },
+  "evaluated": 64729,
+  "valid": 24202,
+  "top": 133.33333333333331,
+  "winners": 40,
+  "exampleWinners": [
+    {
+      "pumping": 15,
+      "exchange": 0,
+      "transport": 0,
+      "power": 0,
+      "efficiency": 15,
+      "cooling": 10
+    },
+    {
+      "pumping": 15,
+      "exchange": 0,
+      "transport": 0,
+      "power": 0,
+      "efficiency": 15,
+      "cooling": 15
+    },
+    {
+      "pumping": 15,
+      "exchange": 0,
+      "transport": 0,
+      "power": 0,
+      "efficiency": 15,
+      "cooling": 20
+    },
+    {
+      "pumping": 15,
+      "exchange": 0,
+      "transport": 0,
+      "power": 0,
+      "efficiency": 15,
+      "cooling": 25
+    },
+    {
+      "pumping": 15,
+      "exchange": 0,
+      "transport": 0,
+      "power": 0,
+      "efficiency": 15,
+      "cooling": 30
+    },
+    {
+      "pumping": 15,
+      "exchange": 0,
+      "transport": 0,
+      "power": 0,
+      "efficiency": 15,
+      "cooling": 35
+    },
+    {
+      "pumping": 15,
+      "exchange": 0,
+      "transport": 0,
+      "power": 0,
+      "efficiency": 15,
+      "cooling": 40
+    },
+    {
+      "pumping": 15,
+      "exchange": 0,
+      "transport": 0,
+      "power": 0,
+      "efficiency": 20,
+      "cooling": 5
+    }
+  ],
+  "restBetter": 1969,
+  "violations": {
+    "rest": 27208,
+    "oxygen": 7806,
+    "pressure": 6188,
+    "mass": 16334,
+    "heat": 7248
+  },
+  "limiting": {
+    "pumping": 10834,
+    "pressure": 1602,
+    "cooling": 6413,
+    "exchange": 3567,
+    "power": 1911
+  },
+  "invariantFailures": 0,
+  "validityMismatches": 0,
+  "singles": [
+    {
+      "parameter": "pumping",
+      "delta": 20,
+      "score": 103.40740740740739,
+      "restScore": 98.0392156862745,
+      "valid": true,
+      "limit": [
+        "cooling"
+      ],
+      "violations": []
+    },
+    {
+      "parameter": "exchange",
+      "delta": 20,
+      "score": 99.77777777777777,
+      "restScore": 98.0392156862745,
+      "valid": true,
+      "limit": [
+        "pumping"
+      ],
+      "violations": []
+    },
+    {
+      "parameter": "transport",
+      "delta": 20,
+      "score": 99.77777777777777,
+      "restScore": 98.0392156862745,
+      "valid": true,
+      "limit": [
+        "pumping"
+      ],
+      "violations": []
+    },
+    {
+      "parameter": "power",
+      "delta": 20,
+      "score": 99.44444444444444,
+      "restScore": 95.23809523809523,
+      "valid": true,
+      "limit": [
+        "pumping"
+      ],
+      "violations": []
+    },
+    {
+      "parameter": "efficiency",
+      "delta": 10,
+      "score": 109.87777777777778,
+      "restScore": 99.00990099009901,
+      "valid": true,
+      "limit": [
+        "pumping"
+      ],
+      "violations": []
+    },
+    {
+      "parameter": "cooling",
+      "delta": 20,
+      "score": 99.8888888888889,
+      "restScore": 99.00990099009901,
+      "valid": true,
+      "limit": [
+        "pumping"
+      ],
+      "violations": []
+    }
+  ]
+}

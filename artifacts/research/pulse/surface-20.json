@@ -1,0 +1,407 @@
+{
+  "version": "4.4.0",
+  "git_hash": "5e29e5b",
+  "arguments": {
+    "case": "surface-20",
+    "out": "../../artifacts/research/pulse/surface-20.json",
+    "reference": "../../artifacts/research/pulse/baseline.patient.json",
+    "surface": 1.2,
+    "volume": 1,
+    "breathing": 1,
+    "exercise": 0,
+    "pressure": 760,
+    "seconds": 180
+  },
+  "property_units": {
+    "HeartRate": "1/min",
+    "RespirationRate": "1/min",
+    "OxygenSaturation": "unitless",
+    "ArterialCarbonDioxidePressure": "mmHg",
+    "ArterialOxygenPressure": "mmHg",
+    "MeanArterialPressure": "mmHg",
+    "CardiacOutput": "L/min",
+    "CerebralBloodFlow": "mL/min",
+    "TotalPulmonaryVentilation": "L/min",
+    "TidalVolume": "mL",
+    "CoreTemperature": "degC",
+    "TotalMetabolicRate": "W"
+  },
+  "stabilized_values": {
+    "HeartRate": 72.04627583038544,
+    "RespirationRate": 12.0481927710843,
+    "OxygenSaturation": 0.9765245381526325,
+    "ArterialCarbonDioxidePressure": 37.972262629145455,
+    "ArterialOxygenPressure": 93.06311938902695,
+    "MeanArterialPressure": 95.25718170708328,
+    "CardiacOutput": 5.779350603089538,
+    "CerebralBloodFlow": 525.2470906160015,
+    "TotalPulmonaryVentilation": 6.137226060347908,
+    "TidalVolume": 509.389763008878,
+    "CoreTemperature": 37.03946935676174,
+    "TotalMetabolicRate": 84.1326714103426
+  },
+  "wall_seconds": 13.109318458999041,
+  "rows": [
+    {
+      "elapsed_s": 0,
+      "engine_time_s": 0.0,
+      "values": {
+        "HeartRate": 72.04627583038544,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765245381526325,
+        "ArterialCarbonDioxidePressure": 37.972262629145455,
+        "ArterialOxygenPressure": 93.06311938902695,
+        "MeanArterialPressure": 95.25718170708328,
+        "CardiacOutput": 5.779350603089538,
+        "CerebralBloodFlow": 525.2470906160015,
+        "TotalPulmonaryVentilation": 6.137226060347908,
+        "TidalVolume": 509.389763008878,
+        "CoreTemperature": 37.03946935676174,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 10,
+      "engine_time_s": 9.999999999999876,
+      "values": {
+        "HeartRate": 72.04740529845856,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765209392633115,
+        "ArterialCarbonDioxidePressure": 37.984469545763645,
+        "ArterialOxygenPressure": 93.07374373640364,
+        "MeanArterialPressure": 95.2588260514603,
+        "CardiacOutput": 5.779500934033646,
+        "CerebralBloodFlow": 563.0565925899755,
+        "TotalPulmonaryVentilation": 6.139553271830617,
+        "TidalVolume": 509.5829215619428,
+        "CoreTemperature": 37.04039343016069,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 20,
+      "engine_time_s": 19.999999999999662,
+      "values": {
+        "HeartRate": 72.04491027213732,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765159908896229,
+        "ArterialCarbonDioxidePressure": 37.996851602288835,
+        "ArterialOxygenPressure": 93.08244233004386,
+        "MeanArterialPressure": 95.25966749221712,
+        "CardiacOutput": 5.77955793214611,
+        "CerebralBloodFlow": 604.4723907870286,
+        "TotalPulmonaryVentilation": 6.141588877295915,
+        "TidalVolume": 509.7518768155625,
+        "CoreTemperature": 37.041306336119305,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 30,
+      "engine_time_s": 29.99999999999945,
+      "values": {
+        "HeartRate": 72.03868087408003,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765102155978345,
+        "ArterialCarbonDioxidePressure": 38.00845056819116,
+        "ArterialOxygenPressure": 93.08911717301933,
+        "MeanArterialPressure": 95.26064771075468,
+        "CardiacOutput": 5.779536228497703,
+        "CerebralBloodFlow": 649.8539314137688,
+        "TotalPulmonaryVentilation": 6.1433261079943,
+        "TidalVolume": 509.8960669635285,
+        "CoreTemperature": 37.04220812078307,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 40,
+      "engine_time_s": 40.000000000000654,
+      "values": {
+        "HeartRate": 72.0290211228945,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765043864030031,
+        "ArterialCarbonDioxidePressure": 38.01856160613454,
+        "ArterialOxygenPressure": 93.0942809158715,
+        "MeanArterialPressure": 95.2615057179413,
+        "CardiacOutput": 5.779353069970435,
+        "CerebralBloodFlow": 699.5792156480629,
+        "TotalPulmonaryVentilation": 6.144741326459586,
+        "TidalVolume": 510.0135300961473,
+        "CoreTemperature": 37.043098841172764,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 50,
+      "engine_time_s": 50.00000000000222,
+      "values": {
+        "HeartRate": 72.01690304000682,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.976499311671093,
+        "ArterialCarbonDioxidePressure": 38.02673288237553,
+        "ArterialOxygenPressure": 93.09873244536762,
+        "MeanArterialPressure": 95.26229886136719,
+        "CardiacOutput": 5.7790216503906455,
+        "CerebralBloodFlow": 754.0632553995875,
+        "TotalPulmonaryVentilation": 6.146748146586289,
+        "TidalVolume": 510.18009616666365,
+        "CoreTemperature": 37.043978575768506,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 60,
+      "engine_time_s": 60.00000000000378,
+      "values": {
+        "HeartRate": 72.0032641345946,
+        "RespirationRate": 12.09677419354835,
+        "OxygenSaturation": 0.9764989823045791,
+        "ArterialCarbonDioxidePressure": 38.03008771058182,
+        "ArterialOxygenPressure": 93.10486550016203,
+        "MeanArterialPressure": 95.26304951123811,
+        "CardiacOutput": 5.778581127606714,
+        "CerebralBloodFlow": 813.757716669998,
+        "TotalPulmonaryVentilation": 6.173979106341922,
+        "TidalVolume": 510.38227279093377,
+        "CoreTemperature": 37.04484720079017,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 70,
+      "engine_time_s": 70.00000000000321,
+      "values": {
+        "HeartRate": 71.98879090456984,
+        "RespirationRate": 12.09677419354835,
+        "OxygenSaturation": 0.9765274887363563,
+        "ArterialCarbonDioxidePressure": 38.00833587325005,
+        "ArterialOxygenPressure": 93.1297134528746,
+        "MeanArterialPressure": 95.26367964695113,
+        "CardiacOutput": 5.778050117526877,
+        "CerebralBloodFlow": 827.7420966598294,
+        "TotalPulmonaryVentilation": 6.175630101014886,
+        "TidalVolume": 510.51875501723214,
+        "CoreTemperature": 37.04570375240252,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 80,
+      "engine_time_s": 80.00000000000122,
+      "values": {
+        "HeartRate": 71.9739653422802,
+        "RespirationRate": 12.09677419354835,
+        "OxygenSaturation": 0.9765584907376581,
+        "ArterialCarbonDioxidePressure": 37.98603717207358,
+        "ArterialOxygenPressure": 93.15709438938278,
+        "MeanArterialPressure": 95.26443270792831,
+        "CardiacOutput": 5.777487495217288,
+        "CerebralBloodFlow": 786.4059039936554,
+        "TotalPulmonaryVentilation": 6.175728240877208,
+        "TidalVolume": 510.5268679125175,
+        "CoreTemperature": 37.0465495922154,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 90,
+      "engine_time_s": 89.99999999999923,
+      "values": {
+        "HeartRate": 71.95900920120343,
+        "RespirationRate": 12.09677419354835,
+        "OxygenSaturation": 0.9765909454330305,
+        "ArterialCarbonDioxidePressure": 37.962196774216295,
+        "ArterialOxygenPressure": 93.18447335788218,
+        "MeanArterialPressure": 95.26523148547888,
+        "CardiacOutput": 5.776910400248826,
+        "CerebralBloodFlow": 655.7912855739582,
+        "TotalPulmonaryVentilation": 6.174550614645722,
+        "TidalVolume": 510.42951747738124,
+        "CoreTemperature": 37.047384887033445,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 100,
+      "engine_time_s": 99.99999999999724,
+      "values": {
+        "HeartRate": 71.94404682184744,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9766053993786357,
+        "ArterialCarbonDioxidePressure": 37.94574074859991,
+        "ArterialOxygenPressure": 93.20549189586336,
+        "MeanArterialPressure": 95.26609100864971,
+        "CardiacOutput": 5.77632911451749,
+        "CerebralBloodFlow": 508.5392784971716,
+        "TotalPulmonaryVentilation": 6.147699420990245,
+        "TidalVolume": 510.25905194219195,
+        "CoreTemperature": 37.048209969538846,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 110,
+      "engine_time_s": 109.99999999999525,
+      "values": {
+        "HeartRate": 71.93040368560868,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765770682963387,
+        "ArterialCarbonDioxidePressure": 37.972018024251064,
+        "ArterialOxygenPressure": 93.19133233108953,
+        "MeanArterialPressure": 95.26710134044409,
+        "CardiacOutput": 5.775772984727921,
+        "CerebralBloodFlow": 544.2254154086881,
+        "TotalPulmonaryVentilation": 6.146215721726614,
+        "TidalVolume": 510.1359049033106,
+        "CoreTemperature": 37.049025931948336,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 120,
+      "engine_time_s": 119.99999999999326,
+      "values": {
+        "HeartRate": 71.91552613822014,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.976551262426412,
+        "ArterialCarbonDioxidePressure": 37.9913717644644,
+        "ArterialOxygenPressure": 93.1744667333957,
+        "MeanArterialPressure": 95.26780703037623,
+        "CardiacOutput": 5.775176090060561,
+        "CerebralBloodFlow": 583.8964089022845,
+        "TotalPulmonaryVentilation": 6.146092320885294,
+        "TidalVolume": 510.125662633481,
+        "CoreTemperature": 37.04983160617485,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 130,
+      "engine_time_s": 129.9999999999927,
+      "values": {
+        "HeartRate": 71.90069621621844,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765320509207511,
+        "ArterialCarbonDioxidePressure": 38.00293355057572,
+        "ArterialOxygenPressure": 93.16031609839064,
+        "MeanArterialPressure": 95.26865961986667,
+        "CardiacOutput": 5.774562752447933,
+        "CerebralBloodFlow": 627.3628539068353,
+        "TotalPulmonaryVentilation": 6.1461151451018985,
+        "TidalVolume": 510.1275570434592,
+        "CoreTemperature": 37.050627037164645,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 140,
+      "engine_time_s": 139.9999999999978,
+      "values": {
+        "HeartRate": 71.88571173438366,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765168424682829,
+        "ArterialCarbonDioxidePressure": 38.010819632646864,
+        "ArterialOxygenPressure": 93.14876349548894,
+        "MeanArterialPressure": 95.26940374463189,
+        "CardiacOutput": 5.773921926975709,
+        "CerebralBloodFlow": 674.9858715219219,
+        "TotalPulmonaryVentilation": 6.146009601060654,
+        "TidalVolume": 510.1187968880359,
+        "CoreTemperature": 37.05141229905536,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 150,
+      "engine_time_s": 150.00000000000293,
+      "values": {
+        "HeartRate": 71.87073989937241,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9765042897965154,
+        "ArterialCarbonDioxidePressure": 38.01683226985284,
+        "ArterialOxygenPressure": 93.1394368585608,
+        "MeanArterialPressure": 95.27018730865358,
+        "CardiacOutput": 5.773271140677871,
+        "CerebralBloodFlow": 727.1642170322809,
+        "TotalPulmonaryVentilation": 6.145686882966522,
+        "TidalVolume": 510.0920112862229,
+        "CoreTemperature": 37.052187486736045,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 160,
+      "engine_time_s": 160.00000000000804,
+      "values": {
+        "HeartRate": 71.8558584768036,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9764938728817133,
+        "ArterialCarbonDioxidePressure": 38.02152837766147,
+        "ArterialOxygenPressure": 93.13206299615835,
+        "MeanArterialPressure": 95.2709977314804,
+        "CardiacOutput": 5.772621947422062,
+        "CerebralBloodFlow": 784.3343244410346,
+        "TotalPulmonaryVentilation": 6.1451429309927015,
+        "TidalVolume": 510.04686327239585,
+        "CoreTemperature": 37.0529526961933,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 170,
+      "engine_time_s": 170.00000000001316,
+      "values": {
+        "HeartRate": 71.84108262516533,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9764878011864071,
+        "ArterialCarbonDioxidePressure": 38.02410338004259,
+        "ArterialOxygenPressure": 93.12744856247306,
+        "MeanArterialPressure": 95.27183519838316,
+        "CardiacOutput": 5.771979083343652,
+        "CerebralBloodFlow": 829.1784076461398,
+        "TotalPulmonaryVentilation": 6.144411613403886,
+        "TidalVolume": 509.9861639125241,
+        "CoreTemperature": 37.05370802123218,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    },
+    {
+      "elapsed_s": 180,
+      "engine_time_s": 180.00000000001828,
+      "values": {
+        "HeartRate": 71.82641253652562,
+        "RespirationRate": 12.0481927710843,
+        "OxygenSaturation": 0.9764865559634968,
+        "ArterialCarbonDioxidePressure": 38.022681817284266,
+        "ArterialOxygenPressure": 93.12700198933511,
+        "MeanArterialPressure": 95.27268247557235,
+        "CardiacOutput": 5.771342548806807,
+        "CerebralBloodFlow": 816.828263017042,
+        "TotalPulmonaryVentilation": 6.144503304130618,
+        "TidalVolume": 509.9937742428429,
+        "CoreTemperature": 37.05445354333301,
+        "TotalMetabolicRate": 84.1326714103426
+      },
+      "events": []
+    }
+  ]
+}

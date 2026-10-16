@@ -1,0 +1,794 @@
+.human-home {
+  --home-action: #a85136;
+  --home-border: #a6ad9d;
+  --home-focus: #337588;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 32px 48px;
+  color: var(--ink);
+}
+.home-header {
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+.home-header a {
+  font-size: 24px;
+  font-weight: 650;
+  text-decoration: none;
+  color: inherit;
+}
+.home-header span {
+  color: var(--muted);
+  font-size: 14px;
+}
+.home-experiment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  padding: 32px 0;
+}
+.home-body {
+  min-height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(ellipse at 50% 55%, #e4e8d7, transparent 68%);
+  position: relative;
+}
+.home-body .living-person {
+  position: relative;
+  width: 300px;
+  height: 443px;
+  bottom: auto;
+  left: auto;
+  transform: none;
+}
+.home-body p {
+  margin: 14px 0 4px;
+  font-variant-numeric: tabular-nums;
+}
+.home-body small {
+  max-width: 300px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+}
+.home-inputs h1 {
+  font:
+    36px / 1.15 Georgia,
+    serif;
+  letter-spacing: -1px;
+  margin: 0 0 28px;
+}
+.home-inputs > label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.home-inputs select {
+  width: 100%;
+  min-height: 48px;
+  background: var(--surface);
+  border: 1px solid #aaa999;
+  border-radius: 8px;
+  padding: 10px;
+  font: inherit;
+  color: inherit;
+}
+.home-age-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 20px 0;
+}
+.home-age-inputs label {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.home-settings,
+.home-evidence {
+  border-top: 1px solid var(--line);
+  margin: 16px 0;
+}
+.home-settings summary,
+.home-evidence summary {
+  min-height: 48px;
+  cursor: pointer;
+  padding: 14px 0;
+  font-size: 14px;
+}
+.home-settings label {
+  display: block;
+  font-size: 14px;
+  margin: 14px 0;
+}
+.home-settings label span {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.home-settings input {
+  width: 100%;
+  min-height: 44px;
+  accent-color: var(--home-action);
+}
+.home-settings output {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.home-simulate {
+  width: 100%;
+  min-height: 52px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--home-action);
+  color: #fffaf5;
+  font-size: 16px;
+  font-weight: 650;
+  cursor: pointer;
+}
+.home-simulate:disabled {
+  background: #716c60;
+  color: #fff;
+  cursor: default;
+}
+.home-scope,
+.home-notice {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 16px 0 0;
+}
+.home-secondary {
+  min-height: 44px;
+  padding: 10px 16px;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--home-border);
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+}
+.human-home button:focus-visible,
+.human-home input:focus-visible,
+.human-home select:focus-visible,
+.human-home summary:focus-visible,
+.human-home a:focus-visible {
+  outline: 3px solid var(--home-focus);
+  outline-offset: 3px;
+}
+.home-result {
+  border-top: 1px solid #b7baa9;
+  padding-top: 28px;
+}
+.home-result-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.home-result-heading h2 {
+  font:
+    28px Georgia,
+    serif;
+  margin: 0;
+}
+.home-result-heading h2 span {
+  color: var(--muted);
+  font: 16px system-ui;
+  margin-left: 12px;
+}
+.home-result-heading > span {
+  font-size: 13px;
+  color: var(--muted);
+}
+.home-transport {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 24px 0;
+}
+.home-transport label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+}
+.home-transport input {
+  width: 100%;
+  min-width: 40px;
+  min-height: 44px;
+  accent-color: var(--home-action);
+}
+.home-statistics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.home-statistics span {
+  font-size: 14px;
+  display: block;
+}
+.home-statistics strong {
+  font:
+    36px / 1.3 Georgia,
+    serif;
+  font-variant-numeric: tabular-nums;
+  display: block;
+  margin-top: 8px;
+}
+.home-statistics p {
+  font-size: 13px;
+  color: var(--muted);
+}
+.home-chart {
+  display: block;
+  width: 100%;
+  height: 180px;
+  margin: 16px 0;
+}
+.home-chart text {
+  font: 12px system-ui;
+  fill: #586452;
+}
+.home-reason {
+  max-width: 750px;
+}
+.home-reason h3,
+.home-unknown h2,
+.home-unknown h3 {
+  font:
+    22px / 1.3 Georgia,
+    serif;
+  margin: 24px 0 8px;
+}
+.home-reason p,
+.home-unknown p,
+.home-evidence p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.home-evidence a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: #76452f;
+}
+@media (max-width: 700px) {
+  .human-home {
+    --home-action: #a85136;
+    --home-border: #a6ad9d;
+    --home-focus: #337588;
+    padding: 0 20px 32px;
+  }
+  .home-header {
+    height: 64px;
+  }
+  .home-header a {
+    font-size: 22px;
+  }
+  .home-header span {
+    font-size: 12px;
+  }
+  .home-experiment {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 16px 0 28px;
+  }
+  .home-body {
+    min-height: 260px;
+  }
+  .home-body .living-person {
+    width: 163px;
+    height: 240px;
+  }
+  .home-body p {
+    margin-top: 8px;
+  }
+  .home-body small {
+    font-size: 11px;
+  }
+  .home-inputs h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .home-statistics {
+    gap: 20px;
+  }
+  .home-statistics strong {
+    font-size: 28px;
+  }
+  .home-result-heading {
+    align-items: flex-start;
+  }
+  .home-result-heading > span {
+    max-width: 110px;
+    text-align: right;
+  }
+  .home-transport {
+    gap: 8px;
+  }
+  .home-transport label {
+    gap: 8px;
+  }
+  .home-transport button {
+    padding: 10px;
+  }
+  .home-chart {
+    height: 150px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-body * {
+    animation: none;
+    transition: none;
+  }
+}
+
+.home-body .organ {
+  cursor: default;
+}
+.home-result:focus {
+  outline: 3px solid var(--lungs);
+  outline-offset: 8px;
+}
+.home-chart-container {
+  display: flex;
+  gap: 12px;
+  margin: 24px 0;
+}
+.home-chart-scale {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0 34px;
+  font-size: 13px;
+  color: var(--muted);
+  flex: none;
+}
+.home-chart-plot {
+  flex: 1;
+  min-width: 0;
+}
+.home-chart {
+  margin: 0;
+  width: 100%;
+  height: 160px;
+}
+.home-chart-axis {
+  stroke: var(--line);
+}
+.home-chart-line {
+  stroke: var(--forest);
+}
+.home-chart-cursor {
+  stroke: var(--home-action);
+}
+.home-chart-ages {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.home-year-summary {
+  font-size: 13px;
+  color: var(--muted);
+}
+@media (forced-colors: active) {
+  .home-simulate,
+  .home-secondary {
+    border: 1px solid ButtonText;
+    background: ButtonFace;
+    color: ButtonText;
+  }
+  .home-chart-axis,
+  .home-chart-line {
+    stroke: CanvasText;
+  }
+  .home-chart-cursor {
+    stroke: Highlight;
+  }
+}
+
+.home-chart-scale {
+  position: relative;
+  width: 36px;
+  height: 160px;
+  padding: 0;
+  display: block;
+}
+.home-chart-scale span {
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+}
+.home-chart-scale span:nth-child(1) {
+  top: 10px;
+}
+.home-chart-scale span:nth-child(2) {
+  top: 80px;
+}
+.home-chart-scale span:nth-child(3) {
+  top: 150px;
+}
+
+.home-body .living-person {
+  height: auto;
+}
+.home-body .living-person svg {
+  height: 443px;
+}
+.home-body .person-callouts {
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  border: 0;
+  padding: 8px 0;
+  margin: 0 -35px;
+}
+.home-body .person-callouts .callout {
+  position: static;
+  font-size: 12px;
+  min-height: 44px;
+  border: 1px solid var(--home-border);
+  background: var(--surface);
+}
+.home-body .person-callouts .callout[aria-pressed="true"] {
+  border-color: var(--forest);
+  background: #e4e8d7;
+}
+.home-body .person-callouts .callout span {
+  display: none;
+}
+.home-body .home-system-note {
+  max-width: 350px;
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 18px;
+}
+.home-body .organ.heart {
+  transform-origin: 194px 241px;
+  animation: home-heart var(--heart-period, 1s) ease-out infinite;
+  animation-play-state: paused;
+}
+.home-body .organ.lungs {
+  animation: lung-activity var(--breath-period, 5s) ease-in-out infinite;
+  animation-play-state: paused;
+}
+.home-body.is-playing .organ.heart,
+.home-body.is-playing .organ.lungs {
+  animation-play-state: running;
+}
+.home-body .person-sweat {
+  opacity: 0;
+}
+.home-settings summary span {
+  float: right;
+  color: var(--muted);
+}
+.home-settings small {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.home-error {
+  border-left: 3px solid var(--home-action);
+  padding-left: 12px;
+  line-height: 1.6;
+}
+.home-chart-select {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.home-chart-select select {
+  min-height: 44px;
+  padding: 6px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--home-border);
+  border-radius: 6px;
+  max-width: 100%;
+}
+.home-chart-scale {
+  width: 110px;
+  margin-top: 56px;
+  font-variant-numeric: tabular-nums;
+}
+.home-chart-baseline {
+  stroke: #796d61;
+  stroke-dasharray: 6 5;
+}
+.home-chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 12px;
+}
+.home-comparison {
+  overflow-x: auto;
+  margin-top: 24px;
+}
+.home-comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.home-comparison caption {
+  text-align: left;
+  font-size: 13px;
+  color: var(--muted);
+  padding-bottom: 16px;
+}
+.home-comparison th,
+.home-comparison td {
+  text-align: right;
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+.home-comparison th:first-child {
+  text-align: left;
+  font-weight: 500;
+  white-space: normal;
+}
+.home-comparison thead th {
+  font-weight: 650;
+}
+.home-evidence button {
+  display: block;
+  margin: 16px 0;
+}
+@keyframes home-heart {
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(1.13);
+  }
+  30% {
+    transform: scale(1.03);
+  }
+}
+@media (max-width: 700px) {
+  .home-body .living-person {
+    width: 100%;
+    max-width: 350px;
+  }
+  .home-body .living-person svg {
+    height: 270px;
+  }
+  .home-body .person-callouts {
+    margin: 0;
+    gap: 4px;
+  }
+  .home-body .person-callouts .callout {
+    font-size: 11px;
+    padding: 6px;
+  }
+  .home-body .home-system-note {
+    margin-top: 10px;
+  }
+  .home-chart-scale {
+    width: 75px;
+    font-size: 10px;
+  }
+  .home-comparison table {
+    font-size: 12px;
+  }
+  .home-comparison th,
+  .home-comparison td {
+    padding: 10px 6px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-body .organ.heart,
+  .home-body .organ.lungs,
+  .home-body.is-playing .organ.lungs,
+  .home-body.is-playing .working .person-front-leg,
+  .home-body.is-playing .working .person-rear-leg,
+  .home-body.is-playing .working .person-front-arm,
+  .home-body.is-playing .working .person-rear-arm,
+  .home-body.is-playing .person-flow {
+    animation: none;
+    transition: none;
+  }
+}
+@media (forced-colors: active) {
+  .home-chart-baseline {
+    stroke: CanvasText;
+  }
+}
+.home-body .organ {
+  cursor: pointer;
+}
+.home-body .callout::before,
+.home-body .callout::after {
+  display: none;
+}
+.home-evidence p {
+  overflow-wrap: anywhere;
+}
+.home-body.is-playing .living-person .organ.lungs {
+  animation-duration: var(--breath-period, 5s);
+}
+
+.home-workbench {
+  min-width: 0;
+}
+.home-experiment {
+  align-items: start;
+}
+.home-body {
+  position: sticky;
+  top: 24px;
+}
+.home-playback-body {
+  display: none;
+}
+.home-takeaway {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.home-scroll-cue {
+  font-size: 12px;
+  color: var(--muted);
+}
+.home-comparison:focus-visible {
+  outline: 3px solid var(--home-focus);
+  outline-offset: 3px;
+}
+.home-result-heading {
+  flex-wrap: wrap;
+}
+.home-result-heading h2 span {
+  display: block;
+  margin: 6px 0 0;
+}
+.home-chart-legend {
+  gap: 12px;
+}
+@media (max-width: 1000px) {
+  .home-experiment {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .home-body {
+    position: static;
+    min-height: 0;
+  }
+  .home-body .living-person {
+    width: 100%;
+    max-width: 420px;
+  }
+  .home-body .living-person svg {
+    height: 180px;
+  }
+  .home-body .person-callouts {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    margin: 0;
+    gap: 4px;
+  }
+  .home-body .person-callouts .callout {
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    padding: 5px;
+    line-height: 1.2;
+  }
+  .home-body .home-system-note {
+    margin-top: 6px;
+  }
+  .home-body p {
+    margin-top: 6px;
+    font-size: 13px;
+  }
+  .home-body small {
+    font-size: 11px;
+  }
+  .home-playback-body {
+    display: block;
+    height: 200px;
+    background: radial-gradient(ellipse, #e4e8d7, transparent 68%);
+  }
+  .home-playback-body .living-person {
+    position: static;
+    width: 136px;
+    height: 200px;
+    transform: none;
+    margin: auto;
+  }
+  .home-playback-body .organ.heart {
+    transform-origin: 194px 241px;
+    animation: home-heart var(--heart-period, 1s) ease-out infinite;
+    animation-play-state: paused;
+  }
+  .home-playback-body .organ.lungs {
+    animation: lung-activity var(--breath-period, 5s) ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .home-playback-body.is-playing .living-person .organ.lungs {
+    animation-duration: var(--breath-period, 5s);
+  }
+  .home-playback-body.is-playing .organ.heart,
+  .home-playback-body.is-playing .organ.lungs {
+    animation-play-state: running;
+  }
+  .home-playback-body .person-sweat {
+    opacity: 0;
+  }
+  .home-chart-scale {
+    width: 80px;
+    font-size: 11px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .human-home .home-playback-body.is-playing .living-person .organ.lungs,
+  .human-home .home-playback-body .living-person .organ.lungs,
+  .human-home .home-playback-body.is-playing .living-person .organ.heart,
+  .human-home .home-playback-body .living-person .organ.heart,
+  .human-home .home-playback-body.is-playing .living-person.working g,
+  .human-home .home-playback-body.is-playing .living-person .person-flow {
+    animation: none;
+    transition: none;
+  }
+}
+.home-body .person-callouts .callout {
+  grid-column: auto;
+  white-space: normal;
+  min-width: 0;
+}
+.human-home .home-body .person-callouts .callout {
+  grid-column: auto;
+}
+.human-home .home-body .person-callouts .callout {
+  min-height: 44px;
+  height: 44px;
+}
+@media (max-width: 1000px) {
+  .home-playback-body {
+    height: 235px;
+  }
+  .home-playback-body p {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+  }
+}
+.human-home .home-body .person-callouts {
+  height: auto;
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+  .home-header {
+    height: 64px;
+  }
+  .home-experiment {
+    padding: 16px 0 28px;
+  }
+  .home-inputs h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}

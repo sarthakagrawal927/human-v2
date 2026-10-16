@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.local/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.DS_Store
+.env*
+.dev.vars*
+.fleet/
+CLAUDE.local.md
+artifacts/research/pulse/*.log

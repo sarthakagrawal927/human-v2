@@ -1,0 +1,509 @@
+{
+  "version": "nchs-us-total-2023-table1-v1",
+  "source": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/NVSR/74-06/Table01.xlsx",
+  "report": "https://www.cdc.gov/nchs/data/nvsr/nvsr74/nvsr74-06.pdf",
+  "sourceSha256": "9626e4b04280b843f20ead87ae8c4d99a385fe368e836ea1ef54d897c1f7a4cf",
+  "population": "United States, total population, all sexes, 2023 period mortality",
+  "rows": [
+    {
+      "age": 0,
+      "deathProbability": 0.005587711930274963,
+      "survivors": 100000.0
+    },
+    {
+      "age": 1,
+      "deathProbability": 0.0004387892549857497,
+      "survivors": 99441.2265625
+    },
+    {
+      "age": 2,
+      "deathProbability": 0.00028328539337962866,
+      "survivors": 99397.59375
+    },
+    {
+      "age": 3,
+      "deathProbability": 0.0002127708721673116,
+      "survivors": 99369.4375
+    },
+    {
+      "age": 4,
+      "deathProbability": 0.00016103859525173903,
+      "survivors": 99348.296875
+    },
+    {
+      "age": 5,
+      "deathProbability": 0.00014926743460819125,
+      "survivors": 99332.296875
+    },
+    {
+      "age": 6,
+      "deathProbability": 0.0001356517750537023,
+      "survivors": 99317.46875
+    },
+    {
+      "age": 7,
+      "deathProbability": 0.00012479782162699848,
+      "survivors": 99304.0
+    },
+    {
+      "age": 8,
+      "deathProbability": 0.000112571069621481,
+      "survivors": 99291.609375
+    },
+    {
+      "age": 9,
+      "deathProbability": 9.97523166006431e-5,
+      "survivors": 99280.4296875
+    },
+    {
+      "age": 10,
+      "deathProbability": 9.225840767612681e-5,
+      "survivors": 99270.5234375
+    },
+    {
+      "age": 11,
+      "deathProbability": 0.00010054723679786548,
+      "survivors": 99261.3671875
+    },
+    {
+      "age": 12,
+      "deathProbability": 0.0001367433142149821,
+      "survivors": 99251.390625
+    },
+    {
+      "age": 13,
+      "deathProbability": 0.0002064896689262241,
+      "survivors": 99237.8203125
+    },
+    {
+      "age": 14,
+      "deathProbability": 0.00029901694506406784,
+      "survivors": 99217.328125
+    },
+    {
+      "age": 15,
+      "deathProbability": 0.0004001037741545588,
+      "survivors": 99187.6640625
+    },
+    {
+      "age": 16,
+      "deathProbability": 0.0004968538996763527,
+      "survivors": 99147.9765625
+    },
+    {
+      "age": 17,
+      "deathProbability": 0.0005867756553925574,
+      "survivors": 99098.7109375
+    },
+    {
+      "age": 18,
+      "deathProbability": 0.0006662756204605103,
+      "survivors": 99040.5625
+    },
+    {
+      "age": 19,
+      "deathProbability": 0.0007391147082671523,
+      "survivors": 98974.5703125
+    },
+    {
+      "age": 20,
+      "deathProbability": 0.0008170558139681816,
+      "survivors": 98901.4140625
+    },
+    {
+      "age": 21,
+      "deathProbability": 0.0008988374029286206,
+      "survivors": 98820.609375
+    },
+    {
+      "age": 22,
+      "deathProbability": 0.0009714047191664577,
+      "survivors": 98731.7890625
+    },
+    {
+      "age": 23,
+      "deathProbability": 0.001030509709380567,
+      "survivors": 98635.8828125
+    },
+    {
+      "age": 24,
+      "deathProbability": 0.0010807198705151677,
+      "survivors": 98534.234375
+    },
+    {
+      "age": 25,
+      "deathProbability": 0.0011258629383519292,
+      "survivors": 98427.75
+    },
+    {
+      "age": 26,
+      "deathProbability": 0.001177071244455874,
+      "survivors": 98316.9375
+    },
+    {
+      "age": 27,
+      "deathProbability": 0.0012428242480382323,
+      "survivors": 98201.2109375
+    },
+    {
+      "age": 28,
+      "deathProbability": 0.0013272396754473448,
+      "survivors": 98079.1640625
+    },
+    {
+      "age": 29,
+      "deathProbability": 0.001422371482476592,
+      "survivors": 97948.9921875
+    },
+    {
+      "age": 30,
+      "deathProbability": 0.0015200190246105194,
+      "survivors": 97809.671875
+    },
+    {
+      "age": 31,
+      "deathProbability": 0.001610953244380653,
+      "survivors": 97661.0
+    },
+    {
+      "age": 32,
+      "deathProbability": 0.0016929763369262218,
+      "survivors": 97503.671875
+    },
+    {
+      "age": 33,
+      "deathProbability": 0.001765311579219997,
+      "survivors": 97338.6015625
+    },
+    {
+      "age": 34,
+      "deathProbability": 0.0018339597154408693,
+      "survivors": 97166.765625
+    },
+    {
+      "age": 35,
+      "deathProbability": 0.0019040937768295407,
+      "survivors": 96988.5625
+    },
+    {
+      "age": 36,
+      "deathProbability": 0.001982687972486019,
+      "survivors": 96803.890625
+    },
+    {
+      "age": 37,
+      "deathProbability": 0.002073784125968814,
+      "survivors": 96611.9609375
+    },
+    {
+      "age": 38,
+      "deathProbability": 0.0021793099585920572,
+      "survivors": 96411.609375
+    },
+    {
+      "age": 39,
+      "deathProbability": 0.0022947920951992273,
+      "survivors": 96201.5
+    },
+    {
+      "age": 40,
+      "deathProbability": 0.0024243067018687725,
+      "survivors": 95980.734375
+    },
+    {
+      "age": 41,
+      "deathProbability": 0.0025570960715413094,
+      "survivors": 95748.046875
+    },
+    {
+      "age": 42,
+      "deathProbability": 0.0026781896594911814,
+      "survivors": 95503.2109375
+    },
+    {
+      "age": 43,
+      "deathProbability": 0.002783878007903695,
+      "survivors": 95247.4375
+    },
+    {
+      "age": 44,
+      "deathProbability": 0.002887663198634982,
+      "survivors": 94982.28125
+    },
+    {
+      "age": 45,
+      "deathProbability": 0.0030081281438469887,
+      "survivors": 94708.0078125
+    },
+    {
+      "age": 46,
+      "deathProbability": 0.0031633179169148207,
+      "survivors": 94423.1171875
+    },
+    {
+      "age": 47,
+      "deathProbability": 0.003356117755174637,
+      "survivors": 94124.4296875
+    },
+    {
+      "age": 48,
+      "deathProbability": 0.0035859011113643646,
+      "survivors": 93808.5390625
+    },
+    {
+      "age": 49,
+      "deathProbability": 0.003842925652861595,
+      "survivors": 93472.1484375
+    },
+    {
+      "age": 50,
+      "deathProbability": 0.004119881894439459,
+      "survivors": 93112.9453125
+    },
+    {
+      "age": 51,
+      "deathProbability": 0.0044198427349328995,
+      "survivors": 92729.328125
+    },
+    {
+      "age": 52,
+      "deathProbability": 0.004752146080136299,
+      "survivors": 92319.4765625
+    },
+    {
+      "age": 53,
+      "deathProbability": 0.005130150355398655,
+      "survivors": 91880.7578125
+    },
+    {
+      "age": 54,
+      "deathProbability": 0.005561912897974253,
+      "survivors": 91409.3984375
+    },
+    {
+      "age": 55,
+      "deathProbability": 0.006022337824106216,
+      "survivors": 90900.984375
+    },
+    {
+      "age": 56,
+      "deathProbability": 0.0065238215029239655,
+      "survivors": 90353.546875
+    },
+    {
+      "age": 57,
+      "deathProbability": 0.007106422446668148,
+      "survivors": 89764.09375
+    },
+    {
+      "age": 58,
+      "deathProbability": 0.007768662180751562,
+      "survivors": 89126.1953125
+    },
+    {
+      "age": 59,
+      "deathProbability": 0.008476490154862404,
+      "survivors": 88433.8046875
+    },
+    {
+      "age": 60,
+      "deathProbability": 0.00920159462839365,
+      "survivors": 87684.1953125
+    },
+    {
+      "age": 61,
+      "deathProbability": 0.009926307015120983,
+      "survivors": 86877.359375
+    },
+    {
+      "age": 62,
+      "deathProbability": 0.010655888356268406,
+      "survivors": 86014.984375
+    },
+    {
+      "age": 63,
+      "deathProbability": 0.011404995806515217,
+      "survivors": 85098.421875
+    },
+    {
+      "age": 64,
+      "deathProbability": 0.012197368778288364,
+      "survivors": 84127.875
+    },
+    {
+      "age": 65,
+      "deathProbability": 0.013054382987320423,
+      "survivors": 83101.734375
+    },
+    {
+      "age": 66,
+      "deathProbability": 0.014087634161114693,
+      "survivors": 82016.890625
+    },
+    {
+      "age": 67,
+      "deathProbability": 0.01507505215704441,
+      "survivors": 80861.46875
+    },
+    {
+      "age": 68,
+      "deathProbability": 0.016150029376149178,
+      "survivors": 79642.4765625
+    },
+    {
+      "age": 69,
+      "deathProbability": 0.017324309796094894,
+      "survivors": 78356.25
+    },
+    {
+      "age": 70,
+      "deathProbability": 0.01845962554216385,
+      "survivors": 76998.78125
+    },
+    {
+      "age": 71,
+      "deathProbability": 0.019921384751796722,
+      "survivors": 75577.4140625
+    },
+    {
+      "age": 72,
+      "deathProbability": 0.021541107445955276,
+      "survivors": 74071.8046875
+    },
+    {
+      "age": 73,
+      "deathProbability": 0.023475665599107742,
+      "survivors": 72476.21875
+    },
+    {
+      "age": 74,
+      "deathProbability": 0.025684701278805733,
+      "survivors": 70774.7890625
+    },
+    {
+      "age": 75,
+      "deathProbability": 0.02821939066052437,
+      "survivors": 68956.9609375
+    },
+    {
+      "age": 76,
+      "deathProbability": 0.030546436086297035,
+      "survivors": 67011.0390625
+    },
+    {
+      "age": 77,
+      "deathProbability": 0.03452332690358162,
+      "survivors": 64964.08984375
+    },
+    {
+      "age": 78,
+      "deathProbability": 0.03765526041388512,
+      "survivors": 62721.3125
+    },
+    {
+      "age": 79,
+      "deathProbability": 0.042210791260004044,
+      "survivors": 60359.5234375
+    },
+    {
+      "age": 80,
+      "deathProbability": 0.046538081020116806,
+      "survivors": 57811.69921875
+    },
+    {
+      "age": 81,
+      "deathProbability": 0.052310872822999954,
+      "survivors": 55121.25390625
+    },
+    {
+      "age": 82,
+      "deathProbability": 0.05833813548088074,
+      "survivors": 52237.8125
+    },
+    {
+      "age": 83,
+      "deathProbability": 0.06464482843875885,
+      "survivors": 49190.35546875
+    },
+    {
+      "age": 84,
+      "deathProbability": 0.07196139544248581,
+      "survivors": 46010.453125
+    },
+    {
+      "age": 85,
+      "deathProbability": 0.07967729866504669,
+      "survivors": 42699.4765625
+    },
+    {
+      "age": 86,
+      "deathProbability": 0.08958007395267487,
+      "survivors": 39297.296875
+    },
+    {
+      "age": 87,
+      "deathProbability": 0.10050288587808609,
+      "survivors": 35777.04296875
+    },
+    {
+      "age": 88,
+      "deathProbability": 0.11249792575836182,
+      "survivors": 32181.34765625
+    },
+    {
+      "age": 89,
+      "deathProbability": 0.125606968998909,
+      "survivors": 28561.01171875
+    },
+    {
+      "age": 90,
+      "deathProbability": 0.13985805213451385,
+      "survivors": 24973.548828125
+    },
+    {
+      "age": 91,
+      "deathProbability": 0.1552620381116867,
+      "survivors": 21480.796875
+    },
+    {
+      "age": 92,
+      "deathProbability": 0.17180931568145752,
+      "survivors": 18145.64453125
+    },
+    {
+      "age": 93,
+      "deathProbability": 0.18946677446365356,
+      "survivors": 15028.0537109375
+    },
+    {
+      "age": 94,
+      "deathProbability": 0.20817553997039795,
+      "survivors": 12180.736328125
+    },
+    {
+      "age": 95,
+      "deathProbability": 0.22784960269927979,
+      "survivors": 9645.0048828125
+    },
+    {
+      "age": 96,
+      "deathProbability": 0.2483757734298706,
+      "survivors": 7447.39453125
+    },
+    {
+      "age": 97,
+      "deathProbability": 0.26961496472358704,
+      "survivors": 5597.64208984375
+    },
+    {
+      "age": 98,
+      "deathProbability": 0.29140505194664,
+      "survivors": 4088.43408203125
+    },
+    {
+      "age": 99,
+      "deathProbability": 0.3135654330253601,
+      "survivors": 2897.043701171875
+    }
+  ]
+}

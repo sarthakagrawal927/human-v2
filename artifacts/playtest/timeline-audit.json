@@ -1,0 +1,50 @@
+{
+  "scope": "Seeded numerical audit of an uncalibrated heat/fluid illustration; not biological validation.",
+  "seed": 1927401,
+  "configurations": 99,
+  "evaluated": 891,
+  "boundaries": 280,
+  "maxHeatResidualJ": 0.000008316334970004391,
+  "maxWaterResidualL": 2.8257396422759484e-12,
+  "maxStepTimeDifferenceSeconds": 16.8271911607153,
+  "maxStepHeatDifferenceC": 0.012824233065258817,
+  "maxStepWaterDifferenceL": 0.00425353998786604,
+  "failures": [],
+  "examples": {
+    "hotBaseline": {
+      "status": "model-boundary",
+      "seconds": 38044.77272727271,
+      "boundary": {
+        "kind": "heat",
+        "elapsedSeconds": 38044.77272727271,
+        "message": "Heat storage reached the assumed 2°C whole-body temperature-equivalent model boundary. Core temperature and injury are unknown."
+      }
+    },
+    "coolingUpgrade": {
+      "status": "completed",
+      "sharedSeconds": 38044.77272727271,
+      "matchedStoredHeatChangeKJ": -417.2,
+      "matchedSweatChangeL": 0.21059001122334475
+    },
+    "scarceWater": {
+      "status": "model-boundary",
+      "seconds": 215381.28653270536,
+      "boundary": {
+        "kind": "heat",
+        "elapsedSeconds": 215381.28653270536,
+        "message": "Heat storage reached the assumed 2°C whole-body temperature-equivalent model boundary. Core temperature and injury are unknown."
+      }
+    },
+    "adequateRecovery": {
+      "status": "completed",
+      "final": {
+        "excessHeatJ": 0,
+        "fluidDeficitL": 0
+      }
+    },
+    "ninetyDayReplay": {
+      "bytes": 3016091,
+      "reproducedSeconds": 7776000
+    }
+  }
+}

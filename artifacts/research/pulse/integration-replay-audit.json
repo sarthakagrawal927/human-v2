@@ -1,0 +1,17 @@
+{
+  "result": "exact physiological replay",
+  "cases": [
+    "baseline",
+    "modified"
+  ],
+  "fields": [
+    "rows",
+    "dense_rows",
+    "stabilized_values",
+    "trailing_30s_mean"
+  ],
+  "previousAdapterSha": "7a6224266fa2399fd7e1a15fdae73c5ce62548cef3c051e58d82980452640203",
+  "currentAdapterSha": "d967fc12f66d7ed80401354d0de10b453f53b42a128a2f013e7384cea4c7eddb",
+  "note": "Event timestamps improved from per-step active polling to exact native log-entry time with separately labeled subsequent sample. Physiology is unchanged.",
+  "recordSha256": "05e2c82a4558b298d71387e125b224bdb7656f1bd92e12146a57a8ac1d2d1048"
+}
